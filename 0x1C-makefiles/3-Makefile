@@ -18,3 +18,5 @@ clean:
 	$(RM) *~* $(NAME)
 
 fclean: clean oclean
+
+re: fclean all
