@@ -8,6 +8,8 @@ NAME = school
 
 RM: rm -f
 
+.PHONY: clean oclean fclean re
+
 all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
